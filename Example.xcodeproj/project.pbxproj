@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17DB2A6A2B1A3E07006AC341 /* EXPLPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DB2A692B1A3E07006AC341 /* EXPLPlugin.m */; };
+		17DB2A6D2B1A3E30006AC341 /* GlyphsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DB2A6C2B1A3E30006AC341 /* GlyphsCore.framework */; };
+		17DB2A722B1A3EBC006AC341 /* EXPLSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DB2A712B1A3EBC006AC341 /* EXPLSettings.m */; };
+		17DB2B122B1A4226006AC341 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DB2B112B1A4226006AC341 /* Cocoa.framework */; };
+		17DB2B162B1A444B006AC341 /* EXPLSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17DB2B152B1A444B006AC341 /* EXPLSettings.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17DB2A612B1A3DC1006AC341 /* Example.glyphsPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Example.glyphsPlugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DB2A682B1A3E07006AC341 /* EXPLPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EXPLPlugin.h; path = Example/EXPLPlugin.h; sourceTree = "<group>"; };
+		17DB2A692B1A3E07006AC341 /* EXPLPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EXPLPlugin.m; path = Example/EXPLPlugin.m; sourceTree = "<group>"; };
+		17DB2A6C2B1A3E30006AC341 /* GlyphsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GlyphsCore.framework; path = "../../../../Applications/Glyphs 3.app/Contents/Frameworks/GlyphsCore.framework"; sourceTree = "<group>"; };
+		17DB2A702B1A3EBC006AC341 /* EXPLSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EXPLSettings.h; path = Example/EXPLSettings.h; sourceTree = "<group>"; };
+		17DB2A712B1A3EBC006AC341 /* EXPLSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EXPLSettings.m; path = Example/EXPLSettings.m; sourceTree = "<group>"; };
+		17DB2B112B1A4226006AC341 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		17DB2B152B1A444B006AC341 /* EXPLSettings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EXPLSettings.xib; path = Example/EXPLSettings.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17DB2A5E2B1A3DC1006AC341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DB2B122B1A4226006AC341 /* Cocoa.framework in Frameworks */,
+				17DB2A6D2B1A3E30006AC341 /* GlyphsCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17DB2A582B1A3DC1006AC341 = {
+			isa = PBXGroup;
+			children = (
+				17DB2A682B1A3E07006AC341 /* EXPLPlugin.h */,
+				17DB2A692B1A3E07006AC341 /* EXPLPlugin.m */,
+				17DB2A702B1A3EBC006AC341 /* EXPLSettings.h */,
+				17DB2A712B1A3EBC006AC341 /* EXPLSettings.m */,
+				17DB2B152B1A444B006AC341 /* EXPLSettings.xib */,
+				17DB2A622B1A3DC1006AC341 /* Products */,
+				17DB2A6B2B1A3E30006AC341 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17DB2A622B1A3DC1006AC341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17DB2A612B1A3DC1006AC341 /* Example.glyphsPlugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17DB2A6B2B1A3E30006AC341 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17DB2B112B1A4226006AC341 /* Cocoa.framework */,
+				17DB2A6C2B1A3E30006AC341 /* GlyphsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17DB2A602B1A3DC1006AC341 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DB2A652B1A3DC1006AC341 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				17DB2A5D2B1A3DC1006AC341 /* Sources */,
+				17DB2A5E2B1A3DC1006AC341 /* Frameworks */,
+				17DB2A5F2B1A3DC1006AC341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = 17DB2A612B1A3DC1006AC341 /* Example.glyphsPlugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17DB2A592B1A3DC1006AC341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					17DB2A602B1A3DC1006AC341 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 17DB2A5C2B1A3DC1006AC341 /* Build configuration list for PBXProject "Example" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17DB2A582B1A3DC1006AC341;
+			productRefGroup = 17DB2A622B1A3DC1006AC341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17DB2A602B1A3DC1006AC341 /* Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17DB2A5F2B1A3DC1006AC341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DB2B162B1A444B006AC341 /* EXPLSettings.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17DB2A5D2B1A3DC1006AC341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DB2A6A2B1A3E07006AC341 /* EXPLPlugin.m in Sources */,
+				17DB2A722B1A3EBC006AC341 /* EXPLSettings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		17DB2A632B1A3DC1006AC341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		17DB2A642B1A3DC1006AC341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		17DB2A662B1A3DC1006AC341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = PZD8TPH82M;
+				DSTROOT = "$(USER_LIBRARY_DIR)/Application Support/Glyphs 3/Plugins";
+				FRAMEWORK_SEARCH_PATHS = "$(SYSTEM_APPS_DIR)/Glyphs\\ 3.app/Contents/Frameworks";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = EXPLPlugin;
+				INSTALL_PATH = /;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = glyphsPlugin;
+			};
+			name = Debug;
+		};
+		17DB2A672B1A3DC1006AC341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PZD8TPH82M;
+				DSTROOT = .;
+				FRAMEWORK_SEARCH_PATHS = "$(SYSTEM_APPS_DIR)/Glyphs\\ 3.app/Contents/Frameworks";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = EXPLPlugin;
+				INSTALL_PATH = /;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = glyphsPlugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17DB2A5C2B1A3DC1006AC341 /* Build configuration list for PBXProject "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DB2A632B1A3DC1006AC341 /* Debug */,
+				17DB2A642B1A3DC1006AC341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17DB2A652B1A3DC1006AC341 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DB2A662B1A3DC1006AC341 /* Debug */,
+				17DB2A672B1A3DC1006AC341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17DB2A592B1A3DC1006AC341 /* Project object */;
+}
